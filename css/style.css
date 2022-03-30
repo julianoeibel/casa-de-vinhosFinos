@@ -1,0 +1,107 @@
+:root {
+    --background-color:#113444;
+    --fontes-texto: white;
+    --fontes-titulos:var(--fontes-texto);
+    --background-logo: #370303;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--fontes-texto);
+    font-family: 'Spartan', sans-serif;
+    font-size: 24px;
+}
+
+h1, h2, h3 {
+    background-color: var(--background-color);
+    color: var(--fontes-titulos);
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header .container {
+    height: 98px;
+    display: flex;
+    
+    justify-content: flex-start;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.menu a {
+    width: 20%;
+    color: var(--fontes-texto);
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.logo {
+    background-color: var(--background-logo);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 46px;
+}
+
+.slider {
+    width: 100%;
+    height: 829px;
+    background-image: url('../img/slide1.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.vinhosEspeciais {
+    position:relative;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.winesCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.card {
+    position: relative;
+   
+    width: 360px;
+}
+
+.card img {
+    position: relative;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.plantacao p {
+    text-align: justify;
+    padding-top: 50px;
+    line-height: 52px;
+}
